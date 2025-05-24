@@ -3,4 +3,5 @@ export type CardType = {
   icon: string;
   description: string;
   color: string;
+  colorTitle?: string;
 };

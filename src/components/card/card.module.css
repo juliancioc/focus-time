@@ -1,2 +1,22 @@
-.container {
+.containerCard {
+  padding: 1.5rem;
+  margin: 1rem;
+  border-radius: 8px;
+  max-width: 550px;
+}
+
+.title {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-weight: 500;;
+}
+
+.title svg {
+  margin-right: 0.5rem;
+}
+
+.description {
+  font-size: 30px;
+  font-weight: bold;
 }
