@@ -1,6 +1,7 @@
 import { Card } from "@/components/card";
 
 import styles from "./overview.module.css";
+import { Timer } from "@/components/timer";
 
 export const Overview = () => {
   return (
@@ -38,6 +39,8 @@ export const Overview = () => {
           />
         </div>
       </div>
+
+      <Timer />
     </div>
   );
 };
